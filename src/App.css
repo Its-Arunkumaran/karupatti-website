@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@keyframes rotate50 {
+  0% {
+    transform: rotate(-40deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+.handTransition {
+  animation: rotate50 13s infinite;
+}
+.iconsimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.iconsimage {
+  position: relative;
+  /* width: 100%; */
+}
+
+.finger-tip {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+.icon1 {
+  height: 60px;
+  width: 60px;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.icon2 {
+  height: 60px;
+  width: 60px;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.icon3 {
+  height: 60px;
+  width: 60px;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.icon4 {
+  height: 60px;
+  width: 60px;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.icon5 {
+  height: 60px;
+  width: 60px;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+.icon1:hover {
+  transform: scale(1.4);
+}
+.icon2:hover {
+  transform: scale(1.4);
+}
+.icon3:hover {
+  transform: scale(1.4);
+}
+.icon4:hover {
+  transform: scale(1.4);
+}
+.icon5:hover {
+  transform: scale(1.4);
+}
+
+.handimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.handimage img {
+  max-width: 300px;
+  max-height: 430px;
+}
+
+/* .css-1kp4l8y-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #2c9763;
+} */
+
+.karupatti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.karupatti img {
+  margin-bottom: 10px;
+}
+.background {
+  background-image: url("../src/image/bg1.png");
+  background-size: cover;
+  background-position: center;
+}
+/* 
+.text1 {
+  font-family: "Varela Round";
+  font-size: 9px;
+  position: absolute;
+  margin-right: 285px;
+  margin-top: 393px;
+}
+.text2 {
+  position: absolute;
+  margin-right: 195px;
+  margin-top: 185px;
+}
+.text3 {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 90px;
+}
+.text4 {
+  position: absolute;
+  margin-left: 195px;
+  margin-top: 150px;
+}
+.text5 {
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 290px;
+}
+textPath {
+  font-family: "Varela Round";
+  font-size: 9px;
+} */
